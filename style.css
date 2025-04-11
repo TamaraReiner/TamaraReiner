@@ -22,6 +22,21 @@ h1, h2 {
   color: #ffffff;
 }
 
+#qa-chat button {
+  background-color: var(--button-background);
+  color: var(--button-text);
+  border: none;
+  padding: 0.6rem 1rem;
+  margin: 0.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#qa-chat button:hover {
+  background-color: #555;
+}
+
 footer {
   margin-top: 3rem;
   text-align: center;
