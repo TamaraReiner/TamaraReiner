@@ -48,6 +48,23 @@
       </ul>
     </section>
 
+    <script>
+      function askQuestion(question) {
+        const chatBox = document.getElementById('chat-box');
+        const answers = {
+          'Warum willst du in die IT?': 'Weil mich Technik begeistert – und ich darin die perfekte Mischung aus Kreativität und Logik gefunden hab.',
+          'Was bringst du als Quereinsteiger mit?': 'Zwei abgeschlossene Ausbildungen, technisches Verständnis und den Ehrgeiz, mich stetig weiterzuentwickeln.'
+        };
+
+        chatBox.innerHTML +=`
+        <p><strong>Du:</strong> ${question}</p>
+        <p><strong>Tamara:<strong> ${ansers[question]}</p>
+        `;
+
+        chatBox.scrollTop = chatBox,scrollHeight;
+      }
+    </script>
+
     <section>
       <h2>Projekte:</h2>
       <ul>
