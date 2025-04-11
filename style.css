@@ -28,3 +28,15 @@ footer {
   font-size: 0.9rem;
   color: #aaa;
 }
+
+#profilbild:hover {
+  animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(1px, -1px); }
+  50% { transform: translate(-1px, 1px); }
+  75% { transform: translate(1px, 1px); }
+  100% { transform: translate(0, o); }
+}
