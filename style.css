@@ -1,3 +1,34 @@
+:root {
+  --background-color: #1e1f22;
+  --text-color: #f2f3f5;
+  --button-background: #333333;
+  --button-text: #f2f3f5;
+}
+
+body.light-mode {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --button-background: #f2f3f5;
+  --button-text: #000000;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: var(--background-color);
+  color: var(--button-text);
+  border: none;
+  padding: 10px;
+  cursor: pinter;
+  border-radius: 5px;
+  transistion: background-color 0.3s ease;
+}
+
+
 body {
   font-family: sans-serif;
   line-height: 1.6;
