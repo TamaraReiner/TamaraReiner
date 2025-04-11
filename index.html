@@ -59,10 +59,6 @@
       <p>© 2025 Tamara Reiner - <a href=https://github.com/tamarareiner>GitHub</a></p>
     </footer>
 
-    <button id="theme-toggle" style="position: fixed; top: 10px; right: 10px; padding: 10px; background-color: #f2f3f5; border: none; cursor: pointer;">
-      Dark Mode
-    </button>
-    
     <script>
       const profilbild = document.getElementById("profilbild");
       const easteregg = document.getElementById("easteregg");
@@ -71,18 +67,5 @@
         easteregg.style.display = "block";
       });
     </script>
-
-    <script>
-    const themeToggleButton = document.getElementById('theme-toggle');
-
-    themeToggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    if (document.body.classList.contains('dark-mode')) {
-    themeToggleButton.textContent = 'Light Mode';
-    } else {
-    themeToggleButton.textContent = 'Dark Mode'
-    }
-    });
-  </script>
   </body>
 </html>
