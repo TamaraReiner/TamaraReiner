@@ -102,6 +102,19 @@
       <div class="chat-message"><strong>Warum willst du in die IT?</strong><br>Weil mich Technik begeistert – und ich darin die perfekte Mischung aus Kreativität und Logik gefunden hab.</div>
     </div>
   </div>
+
+  <script>
+    const chatToggle = document.getElementById("chat-toggle");
+    const chatBox = document.getElementById("chat-box");
+
+    chatToggle.addEventListener("click", () => {
+      if (chatBox.style.display === "none") {
+        chatBox.style.display = "block";
+      } else {
+        chatBox.style.display = "none";
+      }
+    });
+  </script>
     
   </body>
 </html>
