@@ -23,20 +23,9 @@ button {
   color: var(--button-text);
   border: none;
   padding: 10px;
-  cursor: pinter;
+  cursor: pointer;
   border-radius: 5px;
-  transistion: background-color 0.3s ease;
-}
-
-
-body {
-  font-family: sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
-  background-color: #2b2d31;
-  color: #f2f3f5;
+  transition: background-color 0.3s ease;
 }
 
 header {
